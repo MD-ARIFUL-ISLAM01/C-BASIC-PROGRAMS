@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+float divide(float a, float b) {
+    return a / b;
+}
+
+int main() {
+    printf("Quotient = %.2f", divide(20, 4));
+    return 0;
+}
